@@ -44,20 +44,20 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\nFirst & Last Names")
-print("Program Name: ")
-print("Date: ")
+print("\nNatalie & Cayden")
+print("Program Name: Drone Force 1")
+print("Date: 4/21/2026")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
 
 
 try:
-    if ready.lower() == 'yes':
+    if ready.lower() == 'l':
         print("\nStarting Drone!\n")
 
-        sendmsg('command', 0)
-        sendmsg('takeoff')
+        sendmsg('command')
+        sendmsg('takeoff',8)
 
         
        # Commit Message: First hoop - Stable
@@ -65,9 +65,9 @@ try:
        #Make sure I put the video in our Repository
        #Commit Message: First Hoop Video in Repository
        #Write code below:
-      
-      
-      
+        
+        sendmsg('left 20',8)
+        sendmsg('forward 190',8)
       
        # Commit Message: Second Hoop - Stable
        # Don't forget to take video of this portion of the comp.
