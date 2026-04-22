@@ -57,6 +57,7 @@ try:
         print("\nStarting Drone!\n")
 
         sendmsg('command')
+        sendmsg('battery?')
         sendmsg('takeoff',8)
 
         
@@ -75,7 +76,7 @@ try:
        #Commit Message: Second Hoop Video in Repository
        #Write code below:
        
-       
+        sendmsg('go 220 5 45 50', 8)
        
        
        # Commit Message: Third Hoop - Stable
