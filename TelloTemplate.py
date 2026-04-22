@@ -66,8 +66,8 @@ try:
        #Commit Message: First Hoop Video in Repository
        #Write code below:
         
-        sendmsg('left 20',8)
-        sendmsg('forward 190',8)
+        sendmsg('left 30',8)
+        sendmsg('forward 205',8)
       
        # Commit Message: Second Hoop - Stable
        # Don't forget to take video of this portion of the comp.
